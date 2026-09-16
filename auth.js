@@ -1,3 +1,4 @@
+// Update login logic for security phase 2
 function login(username, password) {
     if (username === 'locked_user') {
         throw new Error('Account is locked');
