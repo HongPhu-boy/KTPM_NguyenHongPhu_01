@@ -13,7 +13,7 @@ function login(username, password) {
         throw new Error('Password contains invalid characters');
     }
 
-    if (username === 'admin' && password === '123') {
+    if (username === 'admin' && password === '9999') {
         return true;
     }
     
